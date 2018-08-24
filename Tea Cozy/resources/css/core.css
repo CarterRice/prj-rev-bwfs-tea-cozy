@@ -1,0 +1,93 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  postion: fixed;
+}
+.header img {
+  margin-left: 10px;
+  height: 50px;
+}
+div .navbar {
+  display: inline-block;
+  float: right;
+  padding-top: 17.25px;
+}
+/*Css for navbar links*/
+a{
+  padding: 0 10px;
+}
+a:link{
+  color:white;
+  background-color: inherit;
+  text-decoration: underline;
+}
+a:active{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+
+div .ourMission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+}
+div .missionStatement {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+div .teaOfTheMonth {
+  text-align: center;
+}
+
+div .special {
+  display: inline-block;
+}
+div .special img {
+  height: 200px;
+  width: 300px;
+}
+div .locations {
+  text-align: center;
+  background-image: url("../images/img-locations-background.jpg");
+  display: inline-block;
+  height: 500px;
+  width: 1200px;
+  padding-top: 75px;
+}
+div .location {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 300px;
+  opacity: 1;
+  display: inline-block;
+  background-color: black;
+}
+div .contact {
+  height: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+div .footer {
+  text-align: left;
+  margin-left: 20px;
+}
